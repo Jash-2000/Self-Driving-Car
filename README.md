@@ -1,5 +1,15 @@
 # Self-Driving-Car
 
+A course by Professor Steven Waslander, Dr. Jonathan Kelly and Professor Paul Newman involving Vehicle Dynamics, Perception, Planning - mapping and controller as well as its firmware design aspects.  
+
+## Description of files in this repository
+
+ * __Kinematic_Bicycle_Model.ipynb__ - This files generates a **Forward Kinematic model** for a 4 wheeled vehicle, approximated to be a simple 2 wheeled bycycle model. We generate random trajectories and analyse the controller performance for the same. 
+ * __Longitudinal_Vehicle_Model.ipynb__ - The model accepts throttle inputs and steps through the longitudinal dynamic equations. Once implemented, you will be given a set of inputs that drives over a small road slope to test your model.
+ * 
+
+---
+
 Some shortforms:
   * OEDR - Object and Evet Detection and Response
   * ODD - Operational Design Domain
