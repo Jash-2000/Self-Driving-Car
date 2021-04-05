@@ -17,7 +17,8 @@ A course by Professor Steven Waslander, Dr. Jonathan Kelly and Professor Paul Ne
 
  * __Kinematic_Bicycle_Model.ipynb__ - This files generates a **Forward Kinematic model** for a 4 wheeled vehicle, approximated to be a simple 2 wheeled bycycle model. We generate random trajectories and analyse the controller performance for the same. 
  * __Longitudinal_Vehicle_Model.ipynb__ - The model accepts throttle inputs and steps through the longitudinal dynamic equations. Once implemented, you will be given a set of inputs that drives over a small road slope to test your model.
- * __Cruise_control.py__ - Cruise Control based on Fuzzy Logic
+ * __Cruise_control.py__ - Cruise Control based on Fuzzy Logic.
+ * __Vehicle Path Planning__ - Implemented a controller for the CARLA simulator where the goal is to control the vehicle to follow a race track by navigating through preset waypoints. The vehicle needs to reach these waypoints at certain desired speeds, so both longitudinal and lateral control will be required.
 
 ---
 
