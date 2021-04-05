@@ -1,6 +1,15 @@
 ## Trajectory path to be followed
 ![Trajectory_Path](https://github.com/Jash-2000/Self-Driving-Car/blob/main/Vehicle-Path-Control/trajectory.png)
 
+## Design of the controller
+
+ System Outputs : Speed and Acceleration
+ Model Derivarables : Longitudnal Control and Lateral Control
+ PID Model : Used for controlling the brake and throttle positions. This in turn would affect the longitudnal stability of the car.
+ Stanley Model : Waypoint tracking for lateral control. This would output the steering angles.
+
+---
+
 In this project, I have implemented a controller for the CARLA simulator. The goal is to control the vehicle to follow a race track by navigating through preset waypoints. 
 The vehicle needs to reach these waypoints at certain desired speeds, so both longitudinal and lateral control will be required. The file **controller2d.py** class file, is where 
 the controller has been implemented.
@@ -23,6 +32,9 @@ the reference speed by changing the third column of the file, and the path by mo
 
 ---
 
-## Design of the controller
+## Results
 
-  1. 
+![Brake Output](https://github.com/Jash-2000/Self-Driving-Car/blob/main/Vehicle-Path-Control/brake_output.png)
+![](https://github.com/Jash-2000/Self-Driving-Car/blob/main/Vehicle-Path-Control/forward_speed.png)
+![](https://github.com/Jash-2000/Self-Driving-Car/blob/main/Vehicle-Path-Control/steer_output.png)
+![](https://github.com/Jash-2000/Self-Driving-Car/blob/main/Vehicle-Path-Control/throttle_output.png)
