@@ -11,15 +11,16 @@ A course by Professor Steven Waslander, Dr. Jonathan Kelly and Professor Paul Ne
  5. PID, LQR and MPC controllers
  6. Geometric path tracking controller - Pure pursuit, Stanley controller, receeding horizon control
  7. [CARLA simulator](https://d3c33hcgiwev3.cloudfront.net/2tyroyDyEem9HA6xGGaRfg_daf207a020f211e990ff73ab14e458cc_CARLA--An-Open-Urban-Driving-Simulator.pdf?Expires=1617753600&Signature=LV43aNf3VjLhLmBcFZCgFSrgdGJVT2lUsvEVGr5ZVXfnHIqLnbR~GX2QomzchUJkEepQmFxKDhki6mDsFHqmhrhzxQL5TW3VBZ8~x12Bsc9P8yUAzjH6lfX5jFZm7i4aUO2jozftdfsJ33bZ92g9uxuoyNS6MuDcEoWa3CTeCm4_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
- 8.  
+ 8.  Method of Reccursive and Weighted Least-Squares for state estimation
+ 9.  
 
 ## Description of files in this repository
 
+ * __Vehicle-Path-Control__ - Implemented a controller for the CARLA simulator where the goal is to control the vehicle to follow a race track by navigating through preset waypoints. The vehicle needs to reach these waypoints at certain desired speeds, so both longitudinal and lateral control will be required.
  * __Kinematic_Bicycle_Model.ipynb__ - This files generates a **Forward Kinematic model** for a 4 wheeled vehicle, approximated to be a simple 2 wheeled bycycle model. We generate random trajectories and analyse the controller performance for the same. 
  * __Longitudinal_Vehicle_Model.ipynb__ - The model accepts throttle inputs and steps through the longitudinal dynamic equations. Once implemented, you will be given a set of inputs that drives over a small road slope to test your model.
- * __Cruise_control.py__ - Cruise Control based on Fuzzy Logic.
- * __Vehicle-Path-Control__ - Implemented a controller for the CARLA simulator where the goal is to control the vehicle to follow a race track by navigating through preset waypoints. The vehicle needs to reach these waypoints at certain desired speeds, so both longitudinal and lateral control will be required.
- * 
+ * __Cruise_control.py__ - Adaptive Cruise Control based on Fuzzy Logic. Reference Link for the [book](https://airccj.org/csecfp/library/Search.php?title=MODELING+AND+DESIGN+OF+CRUISE+CONTROL+SYSTEM)
+ * ____ - 
 
 ---
 
